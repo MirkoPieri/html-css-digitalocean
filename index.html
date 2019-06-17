@@ -10,10 +10,10 @@
   <body>
     <main>
 
-      <header class="navbar-fixed-top">
+      <header>
 
         <!-- prima sezione navbar -->
-        <nav class="container-fluid">
+        <nav class="container-fluid hidden-xs hidden-sm">
           <div class="row impagin-navbar ul_align">
             <div class="col-md-8 color-navbar">
               <p>new</p>
@@ -34,11 +34,11 @@
         <!-- seconda sezione navbar -->
         <nav class="container-fluid">
           <div class="row impagin-navbar">
-            <div class="col-md-1">
+            <div class="col-md-2 col-xs-10">
               <a href="https://www.digitalocean.com/" class="digital">DigitalOcean</a>
             </div>
 
-            <div class="col-md-10 a_decoration">
+            <div class="col-md-8 hidden-xs hidden-sm a_decoration">
               <ul>
                 <li><a href="#">Products</a></li>
                 <li><a href="#">Marketplace</a></li>
@@ -49,7 +49,7 @@
               </ul>
             </div>
 
-            <div class="col-md-1">
+            <div class="col-md-2 hidden-xs hidden-sm">
               <button class="btn btn-default btn-lg" type="button" aria-haspopup="true" aria-expanded="false">Sign Up</button>
             </div>
           </div>
@@ -61,7 +61,54 @@
 
 
       <!-- primo blocco colonna unica -->
+      <div class="container-fluid sfondo_primoblocco">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12 col-sm-6 primo_blocco">
+              <h1>
+                  Welcome to the <br>
+                  developer cloud
+              </h1>
+              <p>
+                We make it simple to launch in the cloud and <br>
+                scale up as you grow—whether you’re running one <br>
+                virtual machine or ten thousand. <br>
+              </p>
+            </div>
 
+            <div class="col-xs-12 col-sm-6 log_in">
+              <div class="sign-in center-block">
+                <div class="row">
+                  <div class="col-xs-12">
+                  <h2>Deploy in seconds</h2>
+                  </div>
+
+                  <div class="col-xs-12">
+                  <input type="email" name="email" placeholder="Email">
+                  </div>
+
+                  <div class="col-xs-12">
+                  <input type="password" name="password" placeholder="Password">
+                  </div>
+
+                  <div class="col-xs-12 create_account">
+                  <button type="button" name="button">Create your account</button>
+                  </div>
+
+                  <div class="col-xs-12 google">
+                  <button type="button" name="button"><img src="immagini/google.png" alt="google">Sing up whit Google</button>
+                  </div>
+
+                  <div class="col-xs-12">
+                  <p>By signing up you agree to the</p>
+                  <a href="#">Terms of Service</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
       <!-- secondo blocco serie di immagini -->
 

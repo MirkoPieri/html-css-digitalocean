@@ -61,7 +61,7 @@ nav .ul_align ul {
   text-decoration: none;
 }
 
-.container-fluid .row button {
+.container-fluid .impagin-navbar button {
   border-color: #0069FF;
   color: #0069FF;
   font-weight: bold;
@@ -70,7 +70,95 @@ nav .ul_align ul {
   transform: translate(-100%, 0);
 }
 
-.container-fluid .row button:hover {
+.container-fluid .impagin-navbar button:hover {
   background-color: #0069FF;
   color: white;
 }
+
+/* general primo blocco */
+.sfondo_primoblocco {
+  background-image: url("immagini/homeblue.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 150px 0;
+}
+
+.primo_blocco h1 {
+  color: white;
+  font-size: 50pt;
+  font-weight: bold;
+}
+
+.primo_blocco p {
+  color: #CCDBFF;
+  font-size: 18pt;
+}
+
+.log_in [class*="col-"] {
+  margin-top: 10px;
+}
+
+.sign-in {
+  width: 70%;
+  background-color: white;
+  border-radius: 10px;
+  text-align: center;
+  padding: 30px 10px;
+}
+
+.sign-in h2 {
+  font-weight: bold;
+}
+
+.sign-in input {
+  width: 95%;
+  border-style: none;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  padding:10px 10px;
+}
+
+.sign-in input:focus {
+  border-color: #0069FF;
+}
+
+
+.sign-in button {
+  width: 95%;
+  border-style: none;
+  font-weight: bold;
+  font-size: 13pt;
+}
+
+.sign-in .create_account button{
+  color: white;
+  border: 1px solid #15CD72;
+  background-color: #15CD72;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.sign-in .create_account button:hover{
+  border: 1px solid #11C46C;
+  background-color: #11C46C;
+}
+
+.sign-in .google button{
+  color: black;
+  border-bottom: 1px solid lightgrey;
+  background-color: white;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.sign-in .google button:hover{
+  background-color: lightgrey;
+}
+
+.sign-in p {
+  display: inline-block;
+  color: grey;
+}
+
+
+/* secondo blocco */
