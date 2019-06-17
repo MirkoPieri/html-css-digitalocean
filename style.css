@@ -1,0 +1,76 @@
+/* nav bar */
+
+/* parte superiore */
+.impagin-navbar {
+  padding: 10px;
+  border-bottom: 1px solid lightgrey;
+  font-weight: bold;
+}
+
+.impagin-navbar a {
+  color: grey;
+}
+
+nav .row p {
+  display: inline-block;
+  text-transform: uppercase;
+  padding: 2px 5px;
+  background-color: #00D7D2;
+  border: 1px solid #00D7D2;
+  font-size: 8pt;
+  border-radius: 5px;
+}
+
+nav .row li {
+  display: inline-block;
+  list-style: none;
+  padding-right: 10px;
+}
+
+nav .row a {
+  text-decoration: none;
+}
+
+nav .ul_align ul {
+  text-align: right;
+}
+
+.container-fluid .row .color-navbar a:hover {
+  color: #0069FF;
+  text-decoration: none;
+}
+
+/* parte inferiore */
+.container-fluid .row .digital {
+  color: #0069FF;
+  font-weight: bold;
+  font-size: 18pt;
+}
+
+.container-fluid .row .a_decoration a {
+  color: black;
+  font-size: 11pt;
+}
+
+.container-fluid .row .a_decoration {
+  padding-top: 10px;
+}
+
+.container-fluid .row .a_decoration a:hover {
+  color: #0069FF;
+  text-decoration: none;
+}
+
+.container-fluid .row button {
+  border-color: #0069FF;
+  color: #0069FF;
+  font-weight: bold;
+  position: relative;
+  left: 100%;
+  transform: translate(-100%, 0);
+}
+
+.container-fluid .row button:hover {
+  background-color: #0069FF;
+  color: white;
+}
