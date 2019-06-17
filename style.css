@@ -56,10 +56,16 @@ nav .ul_align ul {
   padding-top: 10px;
 }
 
+.container-fluid .row .a_decoration button {
+  background-color: white;
+  border-style: none;
+}
+
 .container-fluid .row .a_decoration a:hover {
   color: #0069FF;
   text-decoration: none;
 }
+
 
 .container-fluid .impagin-navbar button {
   border-color: #0069FF;
