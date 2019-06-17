@@ -24,7 +24,7 @@ nav .row p {
 nav .row li {
   display: inline-block;
   list-style: none;
-  padding-right: 10px;
+  padding-right: 5px;
 }
 
 nav .row a {
@@ -168,3 +168,30 @@ nav .ul_align ul {
 
 
 /* secondo blocco */
+.blocco_secondo {
+  padding: 60px 0;
+  text-align: center;
+  color: grey;
+  text-transform: uppercase;
+  background-color: #F3F5F9;
+}
+
+.blocco_secondo h2 {
+  font-size: 15pt;
+}
+
+.blocco_secondo img{
+  height: 90px;
+  margin: 10px 0;
+}
+
+.blocco_secondo a {
+  font-size: 13pt;
+  font-weight: bold;
+}
+
+.blocco_secondo a:hover {
+  text-decoration: none;
+}
+
+/* blocco terzo */
