@@ -353,3 +353,62 @@ table {
   color: #0069FF;
   text-decoration: none;
 }
+
+/* settimo blocco */
+.blocco_settecentrale {
+  margin-top: 30px;
+  width: 65%;
+  padding: 40px;
+  background-color: white;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0);
+  text-align: center;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+}
+
+.blocco_settecentrale h4 {
+  padding: 40px 0;
+  font-size: 20pt;
+  color: grey;
+}
+
+.blocco_settecentrale h6 {
+  font-size: 12pt;
+  color: black;
+}
+
+.blocco_settecentrale p {
+  font-size: 12pt;
+  color: grey;
+}
+
+.blocco_settecentrale a {
+  padding: 40px 0;
+  font-weight: bold;
+  color: #0069FF;
+  font-size: 13pt;
+}
+
+/* ottavo blocco */
+.ottavo_blocco {
+  background-image: url("immagini/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 40px 0;
+}
+
+.ottavo_blocco button {
+  padding: 10px;
+  width: 25%;
+  background-color: white;
+  color: #0069FF;
+  font-weight: bold;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+
+.ottavo_blocco button:hover {
+  filter:opacity(70%);
+}
