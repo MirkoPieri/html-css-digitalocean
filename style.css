@@ -411,3 +411,39 @@ table {
 .ottavo_blocco button:hover {
   filter:opacity(70%);
 }
+
+/* footer */
+footer {
+  background-color: #010E28;
+  padding: 80px;
+}
+
+footer h4 {
+  padding-top: 30px;
+  color: white;
+}
+
+footer a {
+  display: block;
+  color: gray;
+  padding-top: 10PX;
+}
+
+footer #logodigital {
+  color: #0069FF;
+  font-weight: bold;
+  font-size: 38px;
+}
+
+footer p {
+  color: gray;
+}
+
+footer .social a {
+  padding: 20px 0;
+  filter: opacity(20%);
+}
+
+footer .social a:hover {
+  filter: opacity(100%);
+}
