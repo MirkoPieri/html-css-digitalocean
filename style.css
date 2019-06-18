@@ -1,5 +1,7 @@
 /* nav bar */
-
+header {
+  background-color: white;
+}
 /* parte superiore */
 .impagin-navbar {
   padding: 10px;
@@ -195,18 +197,18 @@ nav .ul_align ul {
 }
 
 /* blocco terzo */
-#blocco_terzo {
+.blocco_text {
   padding-top: 50px;
 }
 
-#blocco_terzo .col-xs-12 h2 {
+.blocco_text h2 {
   font-weight: bold;
   text-align: center;
   color: #031B4E;
   font-size: 28pt;
 }
 
-#blocco_terzo .col-xs-12 p {
+.blocco_text p {
   text-align: center;
   color: gray;
   font-size: 15pt;
@@ -238,11 +240,116 @@ nav .ul_align ul {
   margin-bottom: 10px;
 }
 
-.text_terzoblocco h3 {
+.text_blocco h3 {
   color: #031B54;
 }
 
-.text_terzoblocco p {
+.text_blocco p {
   color: grey;
   font-size: 12pt;
+}
+
+/* blocco quarto */
+.blocco_quarto {
+  padding: 80px 0;
+  background-color: #F3F5F9;
+}
+
+.image_quarto {
+  margin-top: 50px;
+  padding: 0 30px;
+}
+
+.text_sottoimg {
+  font-size: 10pt;
+  margin-top: 30px;
+}
+
+/* quinto blocco */
+.text_quintoblocco {
+  padding: 50px 10px;
+}
+
+.text_quintoblocco h3 {
+  padding: 20px 0;
+  color: #031B4E;
+  font-weight: bold;
+}
+
+.text_quintoblocco p {
+  padding-bottom: 20px;
+  color: gray;
+  font-size: 13pt;
+}
+
+.text_quintoblocco a {
+  padding-bottom: 20px;
+  font-weight: bold;
+  color: #0069FF;
+  font-size: 13pt;
+}
+
+.text_quintoblocco a:hover {
+  text-decoration: none;
+  color: #031B4E;
+}
+
+/* blocco quinto */
+.blocco_quinto {
+  background: #031b4e url(https://www.digitalocean.com/assets/media/homepage/data-center-map-20321538.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 80px 0;
+}
+
+.text_quinto h2{
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  font-size: 28pt;
+}
+
+.table_margin {
+  margin: 30px 0;
+  padding-top: 20px;
+}
+
+table {
+  width: 100%;
+  margin-top: 40px;
+}
+
+.text_quinto tr {
+  border-bottom: 1px solid grey;
+}
+
+.text_quinto td{
+  padding-right: 80px;
+}
+
+.text_quinto td:last-child{
+ text-align: right;
+ padding: 0;
+ padding-left: 80px;
+}
+
+
+.text_quinto td h4 {
+  color: white;
+  text-transform: uppercase;
+}
+
+.text_quinto td p {
+  padding-top: 10px;
+  color: white;
+}
+
+.text_quinto td a {
+  color: #00D1C1;
+  font-weight: bold;
+}
+
+.text_quinto td a:hover {
+  color: #0069FF;
+  text-decoration: none;
 }
