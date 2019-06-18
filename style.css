@@ -195,3 +195,54 @@ nav .ul_align ul {
 }
 
 /* blocco terzo */
+#blocco_terzo {
+  padding-top: 50px;
+}
+
+#blocco_terzo .col-xs-12 h2 {
+  font-weight: bold;
+  text-align: center;
+  color: #031B4E;
+  font-size: 28pt;
+}
+
+#blocco_terzo .col-xs-12 p {
+  text-align: center;
+  color: gray;
+  font-size: 15pt;
+  padding-top: 15px;
+}
+
+.display_a {
+  margin: 80px 0;
+}
+
+.height_terzo {
+    height: 300px;
+}
+
+.display_a a {
+  display: block;
+  padding-top: 20px;
+  color: grey;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 13pt;
+}
+
+.display_a a:hover {
+  color: #031B4E;
+}
+
+.text_terzoblocco {
+  margin-bottom: 10px;
+}
+
+.text_terzoblocco h3 {
+  color: #031B54;
+}
+
+.text_terzoblocco p {
+  color: grey;
+  font-size: 12pt;
+}
