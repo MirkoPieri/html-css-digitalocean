@@ -294,7 +294,7 @@ nav .ul_align ul {
   color: #031B4E;
 }
 
-/* blocco quinto */
+/* blocco sesto */
 .blocco_quinto {
   background: #031b4e url(https://www.digitalocean.com/assets/media/homepage/data-center-map-20321538.svg);
   background-repeat: no-repeat;
@@ -323,23 +323,16 @@ table {
   border-bottom: 1px solid grey;
 }
 
-.text_quinto td{
-  padding-right: 80px;
-}
-
-.text_quinto td:last-child{
+.text_quinto table tr td:last-child{
  text-align: right;
- padding: 0;
- padding-left: 80px;
 }
 
 
-.text_quinto td h4 {
-  color: white;
+.text_quinto th {
   text-transform: uppercase;
 }
 
-.text_quinto td p {
+.text_quinto td, .text_quinto th {
   padding-top: 10px;
   color: white;
 }
